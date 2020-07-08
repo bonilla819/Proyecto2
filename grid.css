@@ -1,0 +1,44 @@
+.producto {
+    background-color: skyblue;
+    min-height: 200px;
+    border: 1px solid;
+    border-radius: 1em;
+
+}
+
+.galeria {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*column-gap: 10px;
+    row-gap: 10px;*/
+    /* borde filas y columnas a la vez*/
+    gap: 10px;
+    /* borde a la derecha*/
+    padding: 1em;
+
+}
+
+/* Productos*/
+.ejemplo {
+    height: auto;
+    padding: 1em;
+    background-color: springgreen;
+    overflow: hidden;
+
+}
+
+/*Imagenes*/
+.prod-imagen {
+    height: fit-content;
+    padding: 1em;
+    /*Al tamaño de la imagen!!*/
+    overflow: hidden;
+
+}
+
+.prod-imagen img {
+    display: block;
+
+
+}
