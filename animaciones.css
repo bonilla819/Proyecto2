@@ -1,0 +1,22 @@
+.proto1 {
+    animation: cambio-fondo 6s 2;
+}
+
+
+@keyframes cambio-fondo {
+    from {
+        background-image: url(../imagenes/arduino-2713093_1280.jpg);
+    }
+
+    to {
+
+        background-image: url(../imagenes/integrated-circuit-441291_1280.jpg);
+        /* Propiedades del estado final */
+    }
+}
+
+.letra {
+
+    background-color: #010101;
+    font-size: 50px;
+}

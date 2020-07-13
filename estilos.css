@@ -1,5 +1,15 @@
+.box {
+    font-size: 25px;
+    color: black;
+    min-height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
 .img-float {
     float: left;
+    font-size: 25px;
 }
 
 .box-p {
@@ -90,5 +100,12 @@
 
 .titulo-principal {
     color: blue;
+
+}
+
+.texto1 {
+    font-size: 25px;
+    text-align: center;
+
 
 }

@@ -5,7 +5,7 @@ body {
 .navbar {
     background-color: rgba(144, 150, 187, 0.308);
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 25px;
 
     justify-content: space-between;
     display: flex;
@@ -56,7 +56,7 @@ body {
     background-image: url(./imagenes/fotos.jpg);
     background-position: center;
     background-size: cover;
-
+    font-size: 20px;
     position: relative;
 }
 
@@ -66,7 +66,7 @@ body {
     background-color: rgba(0, 0, 0, 0.336);
     color: white;
 
-
+    text-align: center;
     top: 40px;
     left: 120px;
 
